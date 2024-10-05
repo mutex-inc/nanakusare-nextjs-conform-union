@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-conform-union",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check:type": "tsc",
+    "check:lint": "biome lint .",
+    "check:lint:fix": "biome lint . --fix",
+    "check:format": "biome format .",
+    "check:format:fix": "biome format . --fix",
+    "check": "biome check .",
+    "check:fix": "biome check . --fix",
+    "check:spell": "cspell lint \"./src/**\" --gitignore --no-progress --no-must-find-files"
+  },
+  "dependencies": {
+    "next": "14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@types/node": "20.16.1",
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.0",
+    "cspell": "8.14.2",
+    "prettier": "3.3.3",
+    "type-fest": "4.26.1",
+    "typescript": "5.5.4"
+  },
+  "volta": {
+    "node": "22.3.0",
+    "yarn": "4.3.1"
+  },
+  "packageManager": "yarn@4.3.1"
+}

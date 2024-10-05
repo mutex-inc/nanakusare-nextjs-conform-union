@@ -1,0 +1,27 @@
+{
+  "ignorePaths": [
+    "dist",
+    "build",
+    "coverage",
+    "public",
+    "out",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/.vscode/**",
+    "**/.next/**",
+    "**/__generated__/**",
+    "**/package.json",
+    "**/yarn-error.log",
+    "**/yarn.lock"
+  ],
+  "dictionaries": [
+    "softwareTerms",
+    "npm",
+    "typescript",
+    "html",
+    "css",
+    "fonts",
+    "filetypes"
+  ],
+  "words": ["biomejs", "Filenaming", "nextjs", "openapi"]
+}
