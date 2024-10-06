@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import type React from "react";
 
-import "./globals.css";
+import "./layout.css";
+import { ToastProvider } from "@/components/common";
 
 export const metadata: Metadata = {
   title: "Front-end Scaffold with Next.js",
@@ -15,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <ToastProvider>{children}</ToastProvider>
+      </body>
     </html>
   );
 }

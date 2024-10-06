@@ -16,9 +16,22 @@
     "check:spell": "cspell lint \"./src/**\" --gitignore --no-progress --no-must-find-files"
   },
   "dependencies": {
-    "next": "14.2.6",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "@conform-to/react": "^1.1.5",
+    "@conform-to/zod": "^1.1.5",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@rive-app/react-canvas": "4.3.0",
+    "@vanilla-extract/css": "^1.14.1",
+    "@vanilla-extract/dynamic": "^2.1.1",
+    "@vanilla-extract/next-plugin": "^2.3.7",
+    "contentful": "^10.11.0",
+    "i18next": "^23.15.1",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-toastify": "^10.0.5",
+    "rss-parser": "^3.13.0",
+    "zod": "^3.23.8",
+    "zod-i18n-map": "^2.27.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.3",

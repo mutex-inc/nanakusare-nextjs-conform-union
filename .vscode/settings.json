@@ -1,43 +1,51 @@
+// {
+//   "editor.formatOnSave": true,
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.biome": "always",
+//     "source.organizeImports.biome": "always"
+//   },
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "[javascript]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[javascriptreact]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[typescript]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[typescriptreact]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[css]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[json]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[jsonc]": {
+//     "editor.defaultFormatter": "biomejs.biome"
+//   },
+//   "[yaml]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[markdown]": {
+//     "editor.formatOnSave": true,
+//     "editor.formatOnPaste": true,
+//     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+//   },
+//   "markdown.extension.tableFormatter.enabled": true,
+//   "markdown.extension.tableFormatter.delimiterRowNoPadding": true,
+//   "markdown.extension.tableFormatter.normalizeIndentation": true,
+//   "markdownlint.config": {
+//     "MD034": false
+//   }
+// }
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "always",
-    "source.organizeImports.biome": "always"
+    "source.fixAll.eslint": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  },
-  "markdown.extension.tableFormatter.enabled": true,
-  "markdown.extension.tableFormatter.delimiterRowNoPadding": true,
-  "markdown.extension.tableFormatter.normalizeIndentation": true,
-  "markdownlint.config": {
-    "MD034": false
-  }
+  "biome.enabled": false
 }
