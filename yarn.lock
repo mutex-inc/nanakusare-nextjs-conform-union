@@ -186,7 +186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.23.2":
+"@babel/runtime@npm:^7.12.5":
   version: 7.25.7
   resolution: "@babel/runtime@npm:7.25.7"
   dependencies:
@@ -3241,12 +3241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^23.15.1":
-  version: 23.15.2
-  resolution: "i18next@npm:23.15.2"
-  dependencies:
-    "@babel/runtime": "npm:^7.23.2"
-  checksum: 10c0/6e079bf486ac24440c2e01f1852b518c3c7f2cf9754ab98c25c78e4bc50f5af936b7cbb3c566f60fbbc093ec14d7432d5320016376038bc23fc1167a03cdb6bc
+"i18next@npm:^26.3.4":
+  version: 26.3.4
+  resolution: "i18next@npm:26.3.4"
+  peerDependencies:
+    typescript: ^5 || ^6
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/09b2e578660b1cdcb284ed00e1f1c8559871fa66cbf85e58f9b78bf782e3b575341f0668ca7230fc80d30104bec42f8ac3ac221096d0f6e6bfbf18255dcccc94
   languageName: node
   linkType: hard
 
@@ -3793,7 +3796,7 @@ __metadata:
     "@vanilla-extract/next-plugin": "npm:^2.3.7"
     contentful: "npm:^10.11.0"
     cspell: "npm:8.14.2"
-    i18next: "npm:^23.15.1"
+    i18next: "npm:^26.3.4"
     next: "npm:^14.2.3"
     prettier: "npm:3.3.3"
     react: "npm:^18.3.1"
